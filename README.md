@@ -1,7 +1,7 @@
 # Python R321 RFID Read/Write with ISO15693
 
 Simple Python implementation for the "IC94-R321 RFID NFC Card Reader Writer For ISO15693 protocol tags" reader with ISO15693 support.
-My friends bought this dumb RFID reader from aliexpress](https://ar.aliexpress.com/item/1005002645753203.html?gatewayAdapt=glo2ara), and needed a way to read and write ISO15693 tags. The documentation was a mess and the provided app was mostly in chinese and way too complicated. As they needed to interface with the reader without relying on the app, I decided to reverse engineer it by sniffing the USB traffic and writing a simple Python script to handle the communication.
+My friends bought this [dumb RFID reader from aliexpress](https://ar.aliexpress.com/item/1005002645753203.html?gatewayAdapt=glo2ara), and needed a way to read and write ISO15693 tags. The documentation was a mess and the provided app was mostly in chinese and way too complicated. As they needed to interface with the reader without relying on the app, I decided to reverse engineer it by sniffing the USB traffic and writing a simple Python script to handle the communication.
 
 Huge thanks to [charlysan](https://github.com/charlysan/pyrfidhid/wiki/Reverse-Engineering-A-USB-HID-RFID-Reader-Writer) for his writeup on reverse engineering USB HID devices.
 
